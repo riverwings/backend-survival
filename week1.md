@@ -7,18 +7,20 @@ description: Git Book은 어렵지만 데브노트 첫 시작.
 1. 프로토콜이란 규칙의 집합, 규약
 2. 애플리케이션 레이어 > OSI 7계층
 3. 클라이언트-서버 모델 + 메시지 교환
-4. 무상태
-    a. HTTP는 각각의 요청이 독립적
+4. 무상태<br>
+    a. HTTP는 각각의 요청이 독립적<br>
     b. 즉, 클라이언트는 항상 자신이 누구인지 알려줘야 한다. > 쿠키, 세션 등
-5. HTTP 메시지 (주고받는 것)
-    a. 기본적으로는 사람이 읽을 수 있는 형태
+5. HTTP 메시지 (주고받는 것)<br>
+    a. 기본적으로는 사람이 읽을 수 있는 형태<br>
     b. 요청과 응답 모두 동일 구조
       - multipart/form-data
-    c. HTTP Method(요청)
+
+    <br>c. HTTP Method(요청)
       ex) POST / HTTP/1.1
       GET HEAD POST(멱등성 x) PUT PATCH(멱등성 x) DELETE OPTIONS
       - 멱등성 : 동일한 요청을 반복했을 때 일정한 값이 유지되는 것
-    d. HTTP Status Code(응답)
+
+    <br>d. HTTP Status Code(응답)
       - 리다이렉션<br><br>
 
 
