@@ -3,14 +3,14 @@ description: 4주차 강의
 ---
 
 # 1. Layered Architecture
-### 관심사의 분리<br>
+### 관심사의 분리
  컴퓨터 프로그램을 구별된 부분으로 분리시키는 디자인 원칙<br>
  관심사 분리를 이용하면 코드의 단순화 및 유지보수의 더 높은 수준의 자유가 생긴다. 관심사가 잘 분리되면 독립적인 개발과 업그레이드 외에도 모듈 재사용이 용이해진다.
-### 응집도<br>
+### 응집도
 응집도는 컴퓨터 프로그래밍에서 모듈 안의 요소들이 함께 속하는 정도를 가리키며, 메소드와 클래스의 데이터간 관계의 강도를 의미한다. 결합도와 대비된다.
-### 결합도<br>
+### 결합도
 결합도 또는 의존도는 어떤 모듈이 다른 모듈에 의존하는 정도를 나타내는 것이다. 보통 응집도와 대비된다.
-### Layered Atchitecture<br>
+### Layered Atchitecture
 전통적인 3계층
 1. Presentation
 2. Domain
@@ -21,8 +21,7 @@ DDD의 4계층
 2. Application Layer
 3. Domain Layer
 4. Infrastructure Layer
-<br><br>
-
+<br>
 
 # 2. Data Access
 
@@ -35,8 +34,7 @@ DDD의 4계층
 
 ### Map
 Key, Value가 존재한다. Key는 중복을 허용하지 않는 ID값이며, Value는 중복을 허용하는 데이터 값이다. 기본적으로 순서가 없다. Key의 검색 속도가 속도를 좌우한다.
-<br><br>
-
+<br>
 
 # 3. Domain Model
 
